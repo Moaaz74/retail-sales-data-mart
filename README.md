@@ -1,4 +1,4 @@
-# Retail Sales Data Warehouse
+# Retail Sales Data Mart
 
 ## Project Overview
 
@@ -26,3 +26,7 @@ The dataset contains retail sales transactions, customer information, product de
 * Create analytical datasets
 * Generate business insights
 
+
+## Dataset link
+
+* https://www.kaggle.com/datasets/rajneesh231/retail-insights-a-comprehensive-sales-dataset
