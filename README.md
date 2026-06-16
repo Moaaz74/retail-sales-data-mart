@@ -25,8 +25,3 @@ The dataset contains retail sales transactions, customer information, product de
 * Implement ETL pipelines
 * Create analytical datasets
 * Generate business insights
-
-
-## Dataset link
-
-* https://www.kaggle.com/datasets/rajneesh231/retail-insights-a-comprehensive-sales-dataset
