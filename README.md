@@ -16,7 +16,7 @@ The project includes:
 
 ## Dataset
 
-The dataset contains retail sales transactions, customer information, product details, shipping information, and geographical data.
+The dataset contains retail sales transactions, customer information, product details, and geographical data.
 
 ## Objectives
 
