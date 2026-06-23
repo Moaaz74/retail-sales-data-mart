@@ -9,13 +9,17 @@ SET search_path TO dw;
 -- =========================
 
 -- DimDate
-CREATE TABLE dim_date (
+CREATE TABLE dw.dim_date (
     date_key INT PRIMARY KEY,
-    full_date DATE,
-    year INT,
-    quarter INT,
-    month INT,
-    day INT
+    full_date DATE NOT NULL,
+    year INT NOT NULL,
+    quarter INT NOT NULL,
+    month INT NOT NULL,
+    month_name VARCHAR(20) NOT NULL,
+    day INT NOT NULL,
+    day_name VARCHAR(20) NOT NULL,
+    week_of_year INT NOT NULL,
+    is_weekend BOOLEAN NOT NULL
 );
 
 -- DimProduct
