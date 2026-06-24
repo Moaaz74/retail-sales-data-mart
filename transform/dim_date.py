@@ -12,6 +12,7 @@ def transform_dim_date(df):
         .dt.normalize()
         .drop_duplicates()
         .sort_values()
+        .reset_index(drop=True)
     )
     
     dim_date['date_key'] = (

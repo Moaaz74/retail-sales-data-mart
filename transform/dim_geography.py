@@ -28,17 +28,27 @@ def transform_dim_geography(df):
                 "TERRITORY"
             ]
         ]
+        .rename(
+            columns={
+                "ADDRESSLINE1": "address_line1",
+                "CITY": "city",
+                "STATE": "state",
+                "POSTALCODE": "postal_code",
+                "COUNTRY": "country",
+                "TERRITORY": "territory"
+            }
+        )
         .drop_duplicates()
         .reset_index(drop=True)
     )
     
     string_columns = [
-        "ADDRESSLINE1",
-        "CITY",
-        "STATE",
-        "POSTALCODE",
-        "COUNTRY",
-        "TERRITORY"
+        "address_line1",
+        "city",
+        "state",
+        "postal_code",
+        "country",
+        "territory"
     ]
 
     dim_geography[string_columns] = (
